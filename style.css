@@ -1,0 +1,285 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container-fluid {
+    background-color: #b4bdff;
+    height: 70px;
+}
+.container img{
+    width: auto;
+    height: auto;
+    max-width: 90px;
+    max-height: 40px;
+}
+.container{
+    margin-top: 10px;
+    color: #210eb3;
+}
+
+#logo{
+    position: relative;
+    bottom: 12px;
+}
+
+#conta{
+    margin: 0%;
+    padding: 0%;
+}
+#menu{
+    z-index: 2;
+}
+#menu-bar{
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(6, 77, 117);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+.nav{
+    transition: 0.3s ease;
+    display: none;
+}
+.nav ul{
+    padding: 0 22px;
+
+}
+.nav li{
+    list-style: none;
+    padding: 12px 0;
+
+}
+.nav li {
+    color: #00FFFF;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.nav li a:hover{
+    font-weight: bold;
+}
+.menu-bg, #menu{
+    top: 0;
+    left: 0;
+
+
+}
+
+.menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #210eb3, #3249cc);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.change {
+    display: block;
+
+}
+
+.change .bar {
+    background-color: #b4bdff;
+}
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar2 {
+    opacity: 0;
+}
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%, -30%);
+}
+
+.nav
+/*main*/
+body{
+    background-color: red;
+
+}
+main{
+    height: 100%;
+}
+#casinha{
+    height: 45px;
+    margin-left: 10px;
+}
+#lupa{
+    height: 20px;
+    margin: -50px 0px 0px 50px;
+    padding: 0px 0pc 2px 5px;
+}
+
+.barra{
+    border-color: #210eb3;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+#img{
+    height: 150px;
+    margin-top: 40px;
+}
+#imgs{
+    height: 150px;
+    margin-top: 100px;
+}
+
+footer{
+    background-color: #b4bdff;
+    height: 100px;
+    text-align: center;
+}
+#banners{
+    margin-top: 100px;
+    height: 200px;
+    margin-left: 120px;
+}
+#p{
+    font-size: 14px;
+    color: rgb(6, 77, 117); /* troca a cor da letra */
+    text-shadow: 0 0 5px #20B2AA, 0 0 20px #20B2AA, 0 0 15px #008B8B, 0 0 20px #008080, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 55px #00FFFF, 0 0 75px #00FFFF;
+    color: #3249cc;
+text-decoration: none; /* removi o cublinhado da ancora */
+font-weight: 800;        
+}
+#testedois{
+    padding-left: 20px;
+    text-align: justify;
+}
+#testetres{
+    padding-right: 20px;
+}
+
+#que{
+    max-width: 400px;
+    max-height: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#queque{
+    max-width: 400px;
+    max-height: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#vasco{
+    position: relative;
+    bottom:63px;
+    margin-left: 92%;
+}
+h1{
+    position: relative;
+    margin-left: 33%;
+    color:#fd6f49;
+    bottom:20%;
+}
+#laura{
+    position: relative;
+    margin-left: 270px;
+    padding-top:80px;
+    height:40px;
+    bottom:80px;
+}
+#abacaxi{
+    position: relative;
+    color: #210eb3;
+    margin-left:16%;
+    margin-top: 45px;
+    font-size: small;
+    top:6px;
+
+}
+#carregador{
+    position: relative;
+    color: #210eb3;
+    margin-left: 201px;
+    padding-top: 15px;
+    font-size: small;
+    bottom:10px;
+   
+}
+#melao{
+    position: relative;
+    margin-left:66%;
+    bottom:167px
+}
+#s{
+    position: relative;
+    margin-left: 79%;
+    bottom: 43px;
+    height:30px;
+}
+#mano{
+    position: relative;
+    width: 20px;
+}
+#thiago{
+    position: relative;
+    margin-left: 92%;
+    bottom: 73px;
+}
+#mesa{
+    position: relative;
+    bottom: 50px;
+ 
+}
+footer{
+    width: 100%;
+    height: 10px;
+    background-color: #b4bdff;
+}
+#footer{
+    height: 29px;
+
+}
+ #desenvolvedores{
+    text-align: center;
+        color: rgb(6, 77, 117); /* troca a cor da letra */
+        text-shadow: 0 0 5px #20B2AA, 0 0 20px #20B2AA, 0 0 15px #008B8B, 0 0 20px #008080, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 55px #00FFFF, 0 0 73px #00FFFF;
+        color: #3249cc;
+    text-decoration: none; /* removi o cublinhado da ancora */
+    font-weight:700;        
+  
+}
+
+#bib {
+    width: 33%;
+    height: auto;
+    float: left;
+}
+#sala {
+    width: 34%;
+    height: 48.7%;
+}
+#sesc {
+    width: 33%;
+    height: auto;
+    float: right;
+}
+  
