@@ -1,0 +1,335 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container-fluid {
+    background-color: #b4bdff;
+    height: 70px;
+}
+.container img{
+    width: auto;
+    height: auto;
+    max-width: 90px;
+    max-height: 40px;
+}
+.container{
+    margin-top: 10px;
+    color: #210eb3;
+}
+
+#logo{
+    position: relative;
+    bottom: 12px;
+}
+
+#conta{
+    margin: 0%;
+    padding: 0%;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+main {
+    background: url("bg.jpg") no-repeat 
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: rosybrown;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+    .nav-list {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+    
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background:rgb(6, 77, 117);
+    margin: 8px;
+}
+/*main*/
+
+
+
+main{
+    height: 100%;
+}
+#casinha{
+    height: 45px;
+    margin-left: 10px;
+}
+#lupa{
+    height: 20px;
+    margin: -50px 0px 0px 50px;
+    padding: 0px 0pc 2px 5px;
+}
+
+.barra{
+    border-color: #210eb3;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+#img{
+    height: 150px;
+    margin-top: 40px;
+}
+.imgs{
+    height: 100px;
+    margin-top: 100px;
+   
+}
+
+
+
+footer{
+    background-color: #b4bdff;
+    height: 100px;
+    text-align: center;
+}
+#banners{
+    margin-top: 100px;
+    height: 200px;
+    margin-left: 120px;
+}
+#p{
+    font-size: 14px;
+    color: rgb(6, 77, 117); /* troca a cor da letra */
+    text-shadow: 0 0 5px #20B2AA, 0 0 20px #20B2AA, 0 0 15px #008B8B, 0 0 20px #008080, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 55px #00FFFF, 0 0 75px #00FFFF;
+    color: #3249cc;
+text-decoration: none; /* removi o cublinhado da ancora */
+font-weight: 800;        
+}
+#testedois{
+    padding-left: 20px;
+    text-align: justify;
+}
+#testetres{
+    padding-right: 20px;
+    
+}
+#testetressss {
+    margin-left: 350px;
+}
+
+#que{
+    max-width: 400px;
+    max-height: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#queque{
+    max-width: 400px;
+    max-height: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#vasco{
+    position: relative;
+    bottom:63px;
+    margin-left: 92%;
+}
+h1{
+    position: relative;
+    margin-left: 33%;
+    color:#fd6f49;
+    bottom:20%;
+}
+#laura{
+    position: relative;
+    margin-left: 270px;
+    padding-top:80px;
+    height:40px;
+    bottom:80px;
+}
+#abacaxi{
+    position: relative;
+    color: #210eb3;
+    margin-left:16%;
+    margin-top: 45px;
+    font-size: small;
+    top:6px;
+
+}
+#carregador{
+    position: relative;
+    color: #210eb3;
+    margin-left: 201px;
+    padding-top: 15px;
+    font-size: small;
+    bottom:10px;
+   
+}
+#melao{
+    position: relative;
+    margin-left:66%;
+    bottom:167px
+}
+#s{
+    position: relative;
+    margin-left: 79%;
+    bottom: 43px;
+    height:30px;
+}
+#mano{
+    position: relative;
+    width: 20px;
+}
+#thiago{
+    position: relative;
+    margin-left: 92%;
+    bottom: 73px;
+}
+#mesa{
+    position: relative;
+    bottom: 50px;
+ 
+}
+footer{
+    width: 100%;
+    height: 10px;
+    background-color: #b4bdff;
+}
+#footer{
+    height: 29px;
+
+}
+ #desenvolvedores{
+    text-align: center;
+        color: rgb(6, 77, 117); /* troca a cor da letra */
+        text-shadow: 0 0 5px #20B2AA, 0 0 20px #20B2AA, 0 0 15px #008B8B, 0 0 20px #008080, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 55px #00FFFF, 0 0 73px #00FFFF;
+        color: #3249cc;
+    text-decoration: none; /* removi o cublinhado da ancora */
+    font-weight:700;        
+  
+}
+
+#bib {
+    width: 33%;
+    height: auto;
+    float: left;
+}
+#sala {
+    width: 34%;
+    height: 48.7%;
+}
+#sesc {
+    width: 33%;
+    height: auto;
+    float: right;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+ 
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  #cardgigante {
+      width: 700px;
+      height: 350px;
+      margin-left: -100px;
+  }
+  
+  #carddoladodocard {
+    width: 300px;
+    height: 350px;
+  }
+
+  #imgdocardinicio {
+      height: 200px;
+  }
+
+  #aaaa {
+      margin-right: 100px;
+  }
+  
