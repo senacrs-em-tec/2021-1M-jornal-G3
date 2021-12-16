@@ -4,16 +4,25 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+
+#forms {
+    margin-top: 70px;
+    margin-left: 30px8;
+    height: 700px;
+}
+
+#contabc {
+    max-width: 50px;
+    max-height: 50px;
+    height: 45px;
+    width: 50px;
+}
+
 .container-fluid {
     background-color: #b4bdff;
     height: 70px;
 }
-.container img{
-    width: auto;
-    height: auto;
-    max-width: 90px;
-    max-height: 40px;
-}
+
 .container{
     margin-top: 10px;
     color: #210eb3;
@@ -21,7 +30,7 @@
 
 #logo{
     position: relative;
-    bottom: 12px;
+    bottom: 15px;
 }
 
 #conta{
@@ -125,7 +134,7 @@ main{
     margin-left: 50px;
 }
 #img{
-    height: 150px;
+    
     margin-top: 40px;
 }
 .imgs{
@@ -142,9 +151,13 @@ footer{
     text-align: center;
 }
 #banners{
-    margin-top: 100px;
+    margin-top: 280px;
     height: 200px;
-    margin-left: 120px;
+    margin-left: 10px;
+    margin-left: ;
+}
+#bannerss {
+    margin-left: -100px;
 }
 #p{
     font-size: 14px;
@@ -157,6 +170,7 @@ font-weight: 800;
 #testedois{
     padding-left: 20px;
     text-align: justify;
+    font-size: 20px;
 }
 #testetres{
     padding-right: 20px;
@@ -164,6 +178,12 @@ font-weight: 800;
 }
 #testetressss {
     margin-left: 350px;
+}
+
+#testecinco {
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: bold;
 }
 
 #que{
@@ -251,6 +271,11 @@ footer{
     height: 29px;
 
 }
+
+footer {
+    height: 100px;
+}
+
  #desenvolvedores{
     text-align: center;
         color: rgb(6, 77, 117); /* troca a cor da letra */
@@ -333,3 +358,130 @@ body {
       margin-right: 100px;
   }
   
+  footer {
+    margin-top: 30px;
+}
+
+
+#form {
+    padding-left: 100px;
+}
+
+#senac {
+    margin-top: 100px;
+    height: 352px;
+}
+
+
+#amarelo {
+    margin-top: 100px;
+}
+
+#azul {
+    margin-top: 100px;
+}
+
+#laranja {
+    background-color: #e0866b;
+    height: 30px;
+    color: black;
+}
+
+#rosa {
+    border-color: #e0866b;
+    border-width: 1px;
+}
+
+#cronicascss {
+    margin-left: 120px;
+    margin-bottom: -60px;
+    margin-top: 80px;
+}
+
+#vermais {
+    margin-top: 37px;
+}
+
+#vermaiss {
+    margin-top: 7px;
+}
+
+#vermaisss {
+    margin-top: 12px;
+}
+
+#cardboticias {
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+#preto {
+    margin-left: -80px;
+}
+
+#eu {
+    margin-right: 10px;
+}
+
+#noticiasssssss {
+    margin-left: 135px;
+    margin-bottom: -60px;
+    margin-top: 80px;
+}
+
+#arthur {
+    height: 358px;
+    margin-left: -85px;
+}
+
+
+#creme {
+    
+}
+
+
+#cocacola {
+    margin-right: 10px;
+    margin-left: -10px;
+    margin-bottom: 50px;
+}
+
+#cocacolass {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#naotenhomaisideiass {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#naotenhomaisideias {
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#mouse {
+
+    margin-bottom: 50px;
+}
+
+#teclado {
+
+    margin-bottom: 50px;
+}
+
+#naotenhomaisid {
+    margin-top: 100px;
+}
+
+#anaearthur {
+    margin-top: 150px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+#finalmentes {
+    margin-top: 50px;
+}

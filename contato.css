@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container-fluid {
+    background-color: #b4bdff;
+    height: 70px;
+}
+.container img{
+    width: auto;
+    height: auto;
+    max-width: 90px;
+    max-height: 40px;
+}
+.container{
+    margin-top: 10px;
+    color: #210eb3;
+}
+
+#logo{
+    position: relative;
+    bottom: 12px;
+}
+
+#conta{
+    margin: 0%;
+    padding: 0%;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+main {
+    background: url("bg.jpg") no-repeat 
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: rosybrown;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+    .nav-list {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+    
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background:rgb(6, 77, 117);
+    margin: 8px;
+}
+
+/*******%%%%%%%%%%%%****Final do Header*****%%%%*%%%%%%%%%******/
+
+
+/*************Main***************/
+
+main {
+    margin: 4% 2% 2% 2%;
+}
+
+body main div img{
+    height: 190px;
+}
+
+body main div hr {
+    background-color: #91d0f0;
+    width: 100%;
+    height: 29px;
+}
+
+/***************Carousel***************/
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background: black;
+    border-radius: 22px;
+    width: 39px;
+    height: 37px;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    margin-right: 127px;
+}
+
+.carousel-control-next-icon{
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    margin-left: 127px;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 6px;
+    height: 6px;
+    top: 24px;
+    border-radius: 100px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 50%);
+}
+/**************    Cards   *******************************/
+
+.cards{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cards2{
+    margin: 0;
+    padding: 0;
+}
+
+.card-img-top {
+    width: 74%;
+    border-top-left-radius: calc(0.25rem- 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+#gordão{
+    width: 9rem;
+}
+
+.textodocard{
+    width: 214px;
+}
+
+/*****************Imagens 1****************************/
+.celu{
+    margin-top: 14px;
+    margin-left: 3%;
+}
+/*********************************************/
+
+#detalhes {
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+/****************Imagens 2*****************************/
+.tornera{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+/*********************************************/
+
+
+/***************Footer******************************/
+footer{
+    background-color: #91d0f0;
+}
+
+.logo, .whats, .gmail{
+    width: 6.25rem;
+}
+
+.logo{
+    width: 12.75rem;
+}
+
+#whats{
+        margin-top: 1.625rem;
+        margin-bottom: 1rem;
+        margin-right: 2.25rem;
+        float: right;
+}
+
+.whats{
+    width: 2.813rem;
+    margin-top: 1.25rem;
+}
+
+#gmail{
+    margin-top: 1.563rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.gmail{
+    width: 2.5rem;
+    margin-top: 1.625rem;
+}
+
+.fut{
+    flex: 0 0 25%;
+    margin-right: 6.375rem;
+    max-width: 24%;
+}
+
+.footer{
+    margin: 0;
+}
+
+.lwg{
+    width: 100%;
+}
+/*****/
+
